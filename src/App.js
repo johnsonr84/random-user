@@ -3,12 +3,15 @@ import API from "./utils/API";
 import Header from './components/Header'
 import Table from './components/Table'
 import SearchBar from "./components/SearchBar";
+import { faSort } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './App.css';
 
 function App() {
   const [members, setMembers] = useState([]);
   const [memberData, memberSearchData] = useState("");
-  const [dataValue] = useState('name.first');
-  const [sortValue] = useState(-1);
+  const [dataValue, setDataValue] = useState('name.first');
+  const [sortValue, setSortValue] = useState(-1);
 
   useEffect(() => {
     API.getMembers()
@@ -34,6 +37,12 @@ function App() {
     }
   }
 
+  const updateData = (data) => {
+    if (dataValue === data) {
+      setSortValue(-sortValue)
+    }
+    else setDataValue(data)
+  }
 
   return (
     <>
@@ -44,9 +53,9 @@ function App() {
         <thead>
           <tr>
             <th>Image</th>
-            <th>Name</th>
+            <th onClick={() => updateData("name.first")}>Name <FontAwesomeIcon icon={faSort} /></th>
             <th>Phone</th>
-            <th>Email</th>
+            <th onClick={() => updateData("email")}>Email <FontAwesomeIcon icon={faSort} /></th>
           </tr>
         </thead>
 
