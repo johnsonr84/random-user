@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react'
 import API from "./utils/API";
 import Header from './components/Header'
 import Table from './components/Table'
+import SearchBar from "./components/SearchBar";
 
 function App() {
   const [members, setMembers] = useState([]);
-  const [memberData] = useState("");
+  const [memberData, memberSearchData] = useState("");
   const [dataValue] = useState('name.first');
   const [sortValue] = useState(-1);
 
@@ -33,9 +34,11 @@ function App() {
     }
   }
 
+
   return (
     <>
       <Header />
+      <SearchBar memberSearchData={memberSearchData} />
 
       <table className="table">
         <thead>
