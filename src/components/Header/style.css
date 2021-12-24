@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    background-color: #0C4694;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 10px solid #FDC70B;
+}
+
+h1 {
+    color: #fff;
+}
