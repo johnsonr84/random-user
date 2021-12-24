@@ -1,71 +1,93 @@
-# Getting Started with Create React App
+<h1 align="center"><a href="https://github.com/johnsonr84/random-user">👩 Random User 👨</a></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+* Random User utilizes React Hooks to filter and sort members by first and / or last name.
+* Click on the member to view their individual profile page which features a large picture of the member, the member’s first and last name, street, city, state, postcode, email address, date of birth, and phone number.
+* The UI is broken up into components, managed by state and responds to user events.
+* The member data is retrieved using an HTTP request to the [Random User API](https://randomuser.me/) 
+* I am hoping this test will be technically, logically and programatically correct to the guidlines set forth in the "Random User Test" document and will serve to facilitate my goal for gainful full-time employment, enabling me to not only lead a productive and meaningful daily life, but also so that I may continue purchase my dog endless amounts of squeek toys, bones, retractable leashes and cheesy (but cute) dog sweaters... 🐶
 
-In the project directory, you can run:
+[![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
+[![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/random-user)
+[![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/readme-generator?color=yellow)](https://github.com/johnsonr84/random-user)
+[![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
+  
+## Built With
+[![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
 
-### `npm start`
+## Table of Contents 
+- [Description](#Description)
+- [Outcome](#Outcome)
+- [Project URL](#Project-URL)
+- [Deployment](#Deployment)
+- [Demo/Screenshots](#Demo/Screenshots)
+- [Technologies](#Technologies)
+- [Installation](#Installation)
+- [Credits](#Credits)
+- [License](#License)
+- [Resources](#Resources)
+- [Contact](#Contact)
+- [Author](#Author)
+  
+## Outcome
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- It is responsive to different screen sizes of devices such as mobile, tablet, and desktop.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project URL
+https://github.com/johnsonr84/random-user
 
-### `npm test`
+## Deployment Link
+https://johnsonr84.github.io/random-user/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo/Screenshots
+  <table>
+    <tr>
+      <td>Members List Example</td>
+    </tr>
+    <tr>
+      <td><img src="" width=500 alt="screenshot of members page"></td>
+    </tr>
+      <tr>
+      <td>Member Profile Example</td>
+    </tr>
+    <tr>
+      <td><img src="" width=500 alt="screenshot of member profile page"></td>
+    </tr>
+  </table>
 
-### `npm run build`
+## Technologies 
+```
+React, React Hooks, Random User API
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation 
+Access to GitHub.com and a code editor such as vscode is necessary. Click the GitHub link provided above to the APP REPO. Click on the green button that says Clone or Download and Choose how you would like to download: using the SSH/HTTPS keys or download the zip file. If using SSH/HTTPS Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. If using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and open it. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage 
+In order to use this APP, you need terminal (mac: pre-installed) or gitbash (pc: must be installed). You also need to download and install [node.js](https://nodejs.org/en/) and [npm](www.npmjs.com) or [yarn](https://yarnpkg.com/) package manager. Open the cloned REPO in your favorite code editor, and then in terminal, enter the command “npm i“ or “yarn add”  to install the dependencies.  Now you are ready to start using the app by entering “npm start” or "yarn start" on your terminal or gitbash. If you just want to try how the app works, you can go to the link [here](https://github.com/johnsonr84/random-user)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Credits 
+Me, myself and Irene 
 
-### `npm run eject`
+## License 
+This project is [mit](https://choosealicense.com/licenses/mit/) licensed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
+Coming soon maybe 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Resources
+* [Choose a License](https://choosealicense.com/)
+* [Badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+* [shields.io](https://shields.io/)
+* [React.js](https://reactjs.org/)
+* [Random User API](https://randomuser.me/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
+Email: robertcjohnson1984@gmail.com 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
+Rob Johnson  
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# random-user
+GitHub: https://github.com/johnsonr84/ 
