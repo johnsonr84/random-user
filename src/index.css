@@ -103,19 +103,13 @@ input {
   padding: 0.5rem;
 }
 
-.left {
-  justify-content: center;
-  text-align: left;
-  align-content: center;
-  padding: 0.5rem;
-}
-
 .header {
   display: flex;
   flex-direction: column;
   background-color: #0c4694;
   min-height: 120px;
   padding: 0.5rem;
+  width: 100%;
 }
 
 .header p {
@@ -144,31 +138,6 @@ input {
   border-radius: 50%;
 }
 
-.portfolio {
-  padding-right: 12px;
-}
-
-.socials {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding-bottom: 1rem;
-}
-
-.socials a {
-  font-size: 1.5rem;
-}
-
-.socials ul {
-  display: inline-block;
-  list-style-type: none;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  margin-bottom: 0;
-}
-
 .table {
   align-items: center;
   justify-content: center;
@@ -180,28 +149,4 @@ input {
   width: 70%;
   max-width: 500px;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
-}
-
-.profile-title {
-  display: flex;
-  background-color: #0c4694;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.footer {
-  display: flex;
-  position: relative;
-  color: #53595e;
-  font-size: 1.2rem;
-  background-color: #3b4954;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-top: 10px solid #2d2d2d;
-  bottom: 0;
-  margin-top: -0px;
-  width: 100%;
 }
