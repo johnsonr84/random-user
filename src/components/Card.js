@@ -21,7 +21,7 @@ function Card() {
           </h2>
         </div>
 
-        <div className="member-info center">
+        <div className="center">
           <div className="item">
             <h3>Address:</h3>
             <span>

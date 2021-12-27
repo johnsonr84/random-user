@@ -25,8 +25,7 @@ function MemberContainer() {
           location,
         }))
       )
-      .then(setMembers)
-      
+      .then(setMembers)  
   }, [])
 
   const memberDataRegExp = new RegExp(memberData, 'i')

@@ -7,7 +7,7 @@ function SearchBar({ memberSearchData }) {
   }
 
   return (
-    <div className="center" style={{  backgroundColor: '#fdc70b' }}>
+    <div className="search-bar center" style={{  backgroundColor: '#fdc70b' }}>
       <input
         type="text"
         onChange={handleOnChange}
