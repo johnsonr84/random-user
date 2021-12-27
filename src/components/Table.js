@@ -15,7 +15,7 @@ console.log(member)
       age: member.dob.age,
       phone: member.phone,
       email: member.email,
-      dob: member.dob,
+      dob: ( member.dob.age, member.dob.date ),
       location: member.location,
     })
     history.push('/profile')

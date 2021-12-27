@@ -40,7 +40,7 @@ function Card() {
           </div>
           <div className="item">
             <h3>Date of Birth:</h3>
-            <span>{moment(`${memberData.dob.date}`).format('LL')}</span>
+            <span>{moment(`${memberData.dob.date}`).format('MMMM Do YYYY')}</span>
           </div>
           <div className="item">
             <h3>Phone:</h3>
