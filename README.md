@@ -47,13 +47,13 @@ https://johnsonr84.github.io/random-user/
       <td>Members List Example</td>
     </tr>
     <tr>
-      <td><img src="" width=500 alt="screenshot of members page"></td>
+      <td><img src="../assets/img/members.png" width=500 alt="screenshot of members page"></td>
     </tr>
       <tr>
       <td>Member Profile Example</td>
     </tr>
     <tr>
-      <td><img src="" width=500 alt="screenshot of member profile page"></td>
+      <td><img src="../assets/img/profile.png" width=500 alt="screenshot of member profile page"></td>
     </tr>
   </table>
 
