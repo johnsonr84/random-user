@@ -9,13 +9,13 @@
 * I am hoping this test will be technically, logically and programatically correct to the guidlines set forth in the "Random User Test" document and will serve to facilitate my goal for gainful full-time employment, enabling me to not only lead a productive and meaningful daily life, but also so that I may continue purchase my dog endless amounts of squeek toys, bones, retractable leashes and cheesy (but cute) dog sweaters... 🐶
 
 [![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
-[![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/random-user)
-[![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/readme-generator?color=yellow)](https://github.com/johnsonr84/random-user)
+[![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/random-user?color=orange)](https://github.com/johnsonr84/random-user)
+[![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/random-user?color=yellow)](https://github.com/johnsonr84/random-user)
 [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
   
 ## Built With
 [![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-<!-- [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/) -->
+[![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
 
 ## Table of Contents 
 - [Description](#Description)
